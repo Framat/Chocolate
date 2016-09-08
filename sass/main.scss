@@ -1,13 +1,13 @@
 // SASS OTHER  FILES//
 body{
   background: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .container-fluid{
  max-width: 1200px;
  margin: 0 auto;
  padding: 10px;
-  #nav{
+  nav{
     background: #000;
     display:inline;
     border:1px solid green;
@@ -27,6 +27,7 @@ body{
       margin-top: -35px;
       .navigate{
         display:inline-block;
+        text-transform: uppercase;
         font-size: 16px;
         font-weight: 700;
         padding-right:10px;
@@ -37,4 +38,32 @@ body{
       }
     }
   }
+section#talk{
+    background-image: url("../img/blue-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h3{
+       font-family: "Arial", sans-serif;
+       font-weight: 700;
+       font-size: 30px;
+       color:#fff;
+       border:1px solid brown;
+    }
+    p{
+       font-family: "Arial", sans-serif;
+       font-weight: 400;
+       font-size: 16px;
+       text-align: left;
+       color:#fff;
+       border:1px solid red;
+    }
+    .cookie{
+      float:right;
+      margin-bottom:30px;
+    }
+}
+
+
+
+
 }
