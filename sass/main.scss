@@ -67,21 +67,22 @@ body {
     }
     ////// SECTION "LOCATION" ///////
     section#location {
-        background: #fff;
-        clear: both;
+      clear: both;
+      background: #fff;
     }
-    aside.left{
+    aside.dessert{
       float:left;
+
     }
-    .middle {
+    .recipe {
         font-family: "Arial", sans-serif;
         font-size:14px;
         font-weight:400;
     }
-    aside.right{
+    aside.cookie-names{
 
     }
-    .bottom{
+    .components{
       font-family: "Arial", sans-serif;
       font-size:14px;
       font-weight:400;
