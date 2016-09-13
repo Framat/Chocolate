@@ -1,7 +1,7 @@
 // SASS OTHER  FILES//
 body {
     background: #000;
-    font-family: "Raleway", sans-serif;
+    font-family: "Arial", sans-serif;
 }
 .container-fluid {
     max-width: 1200px;
@@ -29,6 +29,7 @@ body {
             .navigate {
                 display: inline-block;
                 text-transform: uppercase;
+                font-family: "Raleway", sans-serif;
                 font-size: 16px;
                 font-weight: 700;
                 padding-right: 10px;
@@ -44,32 +45,47 @@ body {
     section#talk {
         background-image: url("../img/blue-background.png");
         background-repeat: no-repeat;
-        background-size: cover;
-
         article {
             margin-left: 145px;
-            float:left;
+            float: left;
             h3 {
-                font-family: "Arial", sans-serif;
                 font-weight: 700;
                 font-size: 30px;
-
                 color: #fff;
-                border: 1px solid brown;
             }
             p {
-                font-family: "Arial", sans-serif;
                 font-weight: 400;
                 font-size: 16px;
                 text-align: left;
                 color: #fff;
-                border: 1px solid red;
             }
         }
         aside {
             float: left;
-            margin-bottom: 15px;
+
         }
     }
-    section#location {}
+    ////// SECTION "LOCATION" ///////
+    section#location {
+        background: #fff;
+        clear: both;
+    }
+    aside.left{
+      float:left;
+    }
+    .middle {
+        font-family: "Arial", sans-serif;
+        font-size:14px;
+        font-weight:400;
+    }
+    aside.right{
+
+    }
+    .bottom{
+      font-family: "Arial", sans-serif;
+      font-size:14px;
+      font-weight:400;
+      float:left;
+    }
+
 }
