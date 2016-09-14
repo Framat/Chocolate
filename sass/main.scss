@@ -37,19 +37,23 @@ body {
                 font-size: 16px;
                 font-weight: 700;
                 padding-right: 15px;
+                &:hover {
+                    color: #286d89;
+                    cursor: pointer;
+                }
             }
         }
     }
     ///////SECTION "TALK"//////
     section#talk {
+        float: left;
         background-image: url("../img/blue-background.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        float: left;
         .base {
-            margin-left: 140px;
             float: left;
+            margin-left: 140px;
             h3.fruits {
                 font-weight: 700;
                 font-size: 30px;
@@ -67,12 +71,12 @@ body {
     }
     ////SECTION "LOCATION"//////
     section#location {
+        float: left;
         background: #fff;
         color: #000;
-        float: left;
         .header {
-            width: 100%;
             float: left;
+            width: 100%;
             h2.history {
                 float: left;
                 width: 40%;
@@ -121,13 +125,13 @@ body {
             float: left;
         }
         article {
-            margin-left: 140px;
-            width: 17%;
             float: left;
+            width: 17%;
+            margin-left: 140px;
         }
         .sweets-pictures {
-            width: 66%;
             float: left;
+            width: 66%;
             margin-left: 40px;
             img {
                 padding: 5px;
@@ -136,8 +140,8 @@ body {
     }
     ///SECTION "FOOD"/////
     section#food {
-        width: 100%;
         float: left;
+        width: 100%;
         color: #000;
         h2.best {
             font-weight: 600;
@@ -157,39 +161,37 @@ body {
             float: left;
         }
         .information2 {
-            font-size: 16px;
-            color:#989797;
-            width: 60%;
-            margin-left: 140px;
-            margin-bottom: 30px;
             float: left;
+            width: 60%;
+            margin-left: 140px; margin: 25px auto auto 140px;
+            color:#989797;
+            font-size: 16px;
         }
         .logo2 {
             float: left;
-            margin-left: 50px;
+            margin: auto auto 30px 50px;
         }
     }
     ///SECTION "MUFFIN"/////
     section#muffin {
-        width: 100%;
         float: left;
+        width: 100%;
         background: #000;
         color: #fff;
         .our-treasure {
-            margin-left: 140px;
             float: left;
+            margin-left: 140px;
         }
         h2.delicious {
-            font-size: 30px;
             float: left;
             width: 40%;
-            margin-left: 125px;
-            margin-top: 80px;
+            font-size: 30px;
+            margin: 65px auto auto 125px;
         }
         .muffin-info {
             float: left;
             width: 27%;
-            margin-left: 115px;
+            margin: 40px auto auto 115px;
         }
         .more {
             float: right;
@@ -203,21 +205,20 @@ body {
         background: #fff;
         color: #989797;
         ul.contact {
-            list-style-type: none;
             float: left;
+            list-style-type: none;
             margin-left: 100px;
-            height: 10%;
-        }
+
         li {
-            font-size: 24px;
-            margin-top: 20px;
-            margin-right: 40px;
             font-family: "Raleway", sans-serif;
+            font-size: 24px;
+            margin: 20px 40px auto auto;
         }
-        li .other {
+        li:first-child {
             font-weight: 300;
             margin-left: 25px;
         }
+      }
         hr{
           float:left;
           width:70%;
@@ -225,8 +226,7 @@ body {
         }
         .ownership{
           float:left;
-          margin-left:290px;
-          margin-top:5px;
+          margin: 5px 290px auto auto;
           font-size:12px;
         }
     }
