@@ -1,107 +1,231 @@
 body {
-    background: #000;
+    margin: 0;
+    padding: 0;
     font-family: "Arial", sans-serif;
 }
-.container-fluid {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-    //////NAV//////
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1349px;
+    background: #000;
+    color: #fff;
+    ///NAV////
     nav {
-        background: #000;
-        margin-bottom: 15px;
+        width: 100%;
         .logo {
-            margin: auto 150px auto 145px;
+            margin: auto 150px 15px 140px;
+        }
+        .half-rectangle {
+            margin: auto auto 10px 15px;
         }
         .rectangle {
-            margin: auto auto 42px 15px;
+            margin: 5px auto 48px 15px;
         }
-        .navigation {
-            color: #fff;
+        ul.navigation {
             float: right;
-            list-style: none;
-            margin: -35px 75px auto auto;
-            .navigate {
-                display: inline-block;
+            list-style-type: none;
+            margin: -35px 245px auto auto;
+            li {
+                float: left;
                 text-transform: uppercase;
                 font-family: "Raleway", sans-serif;
                 font-size: 16px;
                 font-weight: 700;
-                padding-right: 10px;
-                clear: both;
-                &:hover {
-                    color: #286d89;
-                    cursor: pointer;
-                }
+                padding-right: 15px;
             }
         }
     }
-    ////// SECTION "TALK" ///////
+    ///////SECTION "TALK"//////
     section#talk {
         background-image: url("../img/blue-background.png");
         background-repeat: no-repeat;
-        article {
-            margin-left: 145px;
+        background-size: cover;
+        width: 100%;
+        float: left;
+        .base {
+            margin-left: 140px;
             float: left;
-            h3 {
+            h3.fruits {
                 font-weight: 700;
                 font-size: 30px;
-                color: #fff;
             }
-            p {
+            p.info {
                 font-weight: 400;
                 font-size: 16px;
                 text-align: left;
-                color: #fff;
             }
         }
         aside {
             float: left;
+            padding-bottom: 11px;
         }
     }
-    ////// SECTION "LOCATION" ///////
+    ////SECTION "LOCATION"//////
     section#location {
-        clear: both;
         background: #fff;
-    }
-    h2 {
-        font-weight: 600;
-        margin-left: 145px;
-    }
-    aside.dessert {
+        color: #000;
         float: left;
-        margin-left: 145px;
-    }
-    .recipe {
-        font-size: 14px;
-        font-weight: 400;
-    }
-    aside.cookie-names {
-        h3 {
-            color: #0a8ca3;
+        .header {
+            width: 100%;
+            float: left;
+            h2.history {
+                float: left;
+                width: 40%;
+                line-height: 30px;
+                font-weight: 700;
+                font-size: 30px;
+                margin: 10px auto auto 140px;
+            }
+            h3.bar {
+                float: right;
+                width: 37%;
+                color: #0a8ca3;
+                line-height: 43px;
+                font-size: 24px;
+                margin-top: 10px;
+            }
+        }
+        .dessert {
+            float: left;
+            margin-left: 140px;
+            width: 20%;
+        }
+        .recipe {
+            float: left;
+            width: 29%;
+            text-align: left;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        .cookie-names {
+            float: left;
+            width: 35%;
+            margin-left: 20px;
         }
     }
-    .components {
-        font-family: "Arial", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
+    ///SECTION "GALLERY"/////
+    section#gallery {
+        background: #000;
+        width: 100%;
         float: left;
-    }
-    ////// SECTION "WORK"//////
-    section#work {
-        color:#fff;
-        h2{}
+        padding-bottom: 30px;
+        h2.work {
+            margin-left: 140px;
+            font-size: 30px;
+            width: 100%;
+            float: left;
+        }
         article {
-          padding-left:145px;
-            p.title {}
-            p.about{}
-
+            margin-left: 140px;
+            width: 17%;
+            float: left;
         }
-        .gallery{
-
-          img{
-            padding:10px;
-          }
+        .sweets-pictures {
+            width: 66%;
+            float: left;
+            margin-left: 40px;
+            img {
+                padding: 5px;
+            }
+        }
+    }
+    ///SECTION "FOOD"/////
+    section#food {
+        width: 100%;
+        float: left;
+        color: #000;
+        h2.best {
+            font-weight: 600;
+            font-size: 30px;
+            margin-left: 140px;
+            float: left;
+        }
+        .information {
+            font-size: 16px;
+            width: 70%;
+            margin-left: 140px;
+            margin-bottom: 30px;
+            float: left;
+        }
+        .background {
+            float: left;
+        }
+        .information2 {
+            font-size: 16px;
+            width: 60%;
+            margin-left: 140px;
+            margin-bottom: 30px;
+            float: left;
+        }
+        .logo2 {
+            float: left;
+            margin-left: 50px;
+        }
+    }
+    ///SECTION "MUFFIN"/////
+    section#muffin {
+        width: 100%;
+        float: left;
+        background: #000;
+        color: #fff;
+        .our-treasure {
+            margin-left: 140px;
+            float: left;
+        }
+        h2.delicious {
+            font-size: 30px;
+            float: left;
+            width: 40%;
+            margin-left: 125px;
+            margin-top: 80px;
+        }
+        .muffin-info {
+            float: left;
+            width: 27%;
+            margin-left: 115px;
+        }
+        .more {
+            float: right;
+            text-decoration: underline;
+        }
+    }
+    ///////FOOTER//////
+    footer {
+        float: left;
+        width: 100%;
+        background: #fff;
+        color: #989797;
+        ul.contact {
+            list-style-type: none;
+            float: left;
+            margin-left: 100px;
+            height: 10%;
+        }
+        li {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-right: 40px;
+            font-family: "Raleway", sans-serif;
+        }
+        li .other {
+            font-weight: 300;
+            margin-left: 25px;
+        }
+        hr{
+          float:left;
+          width:70%;
+          margin-left: 140px;
+        }
+        .ownership{
+          float:left;
+          margin-left:290px;
+          margin-top:5px;
+          font-size:12px;
         }
     }
 }

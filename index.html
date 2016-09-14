@@ -1,94 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="pl">
 
 <head>
 	<title>Chocolate Project </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700&subset=latin-ext" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<meta name="description" content="Opis w Google" />
+	<meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" />
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 </head>
 
 <body>
-	<div class="container-fluid">
-		<div class="row">
-			<!-- NAV -->
-			<nav class="col-lg-12">
-				<img src="img/logo.png" alt="logo" class="logo" />
-				<img src="img/contact.png" alt="contact" class="contact" />
-				<img src="img/rectangle.png" alt="rectangle" class="rectangle" />
-				<ul class="navigation">
-					<li class="navigate">Start</li>
-					<li class="navigate">About</li>
-					<li class="navigate">Offer</li>
-					<li class="navigate">Gallery</li>
-					<li class="navigate">Contact</li>
-				</ul>
-			</nav>
-		</div>
-		<div class="row">
-			<!--SECTION "TALK"-->
-			<section class="col-lg-12" id="talk">
-				<article>
-					<h3>Let's talk about fruits</h3>
-					<p>Cookie gummi bears chupa chups. Icing lollipop sugar plum dessert.
-						<br> caramels tiramisu. Halvah gingerbread caramels cotton candy.
-						<br> sugar plum caramels topping liquorice jelly beans bonbon. </p>
-				</article>
-				<aside>
-					<img src="img/cup-cookie.png" alt="cup-cookie" />
-				</aside>
-			</section>
-		</div>
-		<div class="row">
-			<!--SECTION "LOCATION"-->
-			<section class="col-lg-12" id="location">
-				<h2> The historical location</h2>
-				<aside class="dessert">
-					<img src="img/plate-cookie.png" alt="plate" />
-				</aside>
-				<article class="recipe">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut iaculis et arcu viverra tempus. Ut quis congue justo. Nam quis ipsum est. Nam eget velit auctor, finibus purus nec, commodo risus. Integer vestibulum tellus ligula, non consequat ligula posuere
-					quis. Mauris mollis ultricies leo, quis commodo tortor vehicula sed. Maecenas ac turpis vel augue cursus eleifend. Donec porttitor et diam et pellentesque. Fusce eu eros orci. Vivamus eget magna gravida, egestas lectus ut, consectetur est. Donec
-					nec vulputate est. Aenean sit amet mauris in metus dictum cursus vel non enim. Vivamus fringilla dictum molestie. Praesent quis augue at libero pulvinar placerat a at dui. Curabitur interdum, sapien ut consequat hendrerit, tortor tortor efficitur
-					leo, sed ornare justo mi vitae velit.</article>
-				<aside class="cookie-names">
-					<h3> Chocolate bar </h3>
-					<img src="img/text.png" alt="text with diffrent colors" />
-				</aside>
-				<article class="components">Donec porttitor rhoncus dictum. Nam egestas pharetra dapibus. Proin vel malesuada nisi. Etiam accumsan accumsan leo vel consequat. Donec odio tortor, elementum sagittis enim ut, sollicitudin imperdiet nisi. Aliquam maximus euismod felis vel sodales.</article>
-			</section>
-		</div>
-		<div class="row">
-			<section class="col-lg-12" id="work">
-				<h2>Our work </h2>
-				<article class="col-lg-4" >
-					<p class="title">Jelly beans jujubes candy cookie macaroon candy cheesecake.</p>
-					<p class="about">Pellentesque cursus, justo a sollicitudin ornare, sapien ipsum elementum ex,
-						a commodo metus ipsum id leo. Curabitur id mollis mi. Curabitur sed arcu id ante facilisis
-						lobortis. Quisque in porttitor massa. Sed malesuada mattis tempor. In hac habitasse platea
-						dictumst. Duis hendrerit imperdiet lectus in ultrices. Pellentesque tristique nisi eu elit porta
-						mollis. Nullam pulvinar interdum aliquam.
-						Aenean in gravida velit. In blandit sit amet eros nec aliquam.</p>
-				</article>
-				<div class="gallery col-lg-8">
-						<img src="img/sweet1.png" alt="sweet1" />
-						<img src="img/sweet2.png" alt="sweet2" />
-						<img src="img/sweet3.png" alt="sweet3" />
-						<img src="img/sweet4.png" alt="sweet4" />
-						<img src="img/sweet5.png" alt="sweet5" />
-						<img src="img/sweet6.png" alt="sweet6" />
-				</div>
-			</section>
-		</div>
-	</div>
+	<div id="container">
+		<!-- NAV-->
+		<nav>
+			<img src="img/logo.png" alt="logo" class="logo" />
+			<img src="img/contact.png" alt="contact" class="half-rectangle" />
+			<img src="img/rectangle.png" alt="rectangle" class="rectangle" />
+			<ul class="navigation">
+				<li>Start</li>
+				<li>About</li>
+				<li>Offer</li>
+				<li>Gallery</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+		<!--SECTION "TALK"-->
+		<section id="talk">
+			<article class="base">
+				<h3 class="fruits">Let's talk about fruits</h3>
+				<p class="info">Cookie gummi bears chupa chups. Icing lollipop sugar plum dessert.
+					<br> caramels tiramisu. Halvah gingerbread caramels cotton candy.
+					<br> sugar plum caramels topping liquorice jelly beans bonbon.</p>
+			</article>
+			<aside>
+				<img src="img/cup-cookie.png" alt="cup-cookie" />
+			</aside>
+		</section>
+		<!--SECTION "LOCATION"-->
+		<section id="location">
+			<div class=header>
+				<h2 class="history"> The historical location</h2>
+				<h3 class="bar"> Chocolate bar </h3>
+			</div>
+			<aside class="dessert">
+				<img src="img/plate-cookie.png" alt="plate" />
+			</aside>
+			<article class="recipe">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut iaculis et arcu viverra tempus. Ut quis congue justo. Nam quis ipsum est. Nam eget velit auctor, finibus purus nec, commodo risus. Integer vestibulum tellus ligula, non consequat ligula posuere
+				quis. Mauris mollis ultricies leo, quis commodo tortor vehicula sed. Maecenas ac turpis vel augue cursus eleifend. Donec porttitor et diam et pellentesque. Fusce eu eros orci. Vivamus eget magna gravida, egestas lectus ut, consectetur est. Donec nec
+				vulputate est. Aenean sit amet mauris in metus dictum cursus vel non enim. Vivamus fringilla dictum molestie. Praesent quis augue at libero pulvinar placerat a at dui. Curabitur interdum, sapien ut consequat hendrerit, tortor tortor efficitur leo,
+				sed ornare justo mi vitae velit.</article>
+			<aside class="cookie-names">
+				<img src="img/text.png" alt="text with diffrent colors" />
+			</aside>
+		</section>
+		<!--SECTION "GALLERY"-->
+		<section id="gallery">
+			<h2 class="work">Our work</h2>
+			<article>
+				<p class="title">Jelly beans jujubes candy cookie macaroon candy cheesecake.</p>
+				<p class="about">Pellentesque cursus, justo a sollicitudin ornare, sapien ipsum elementum ex, a commodo metus ipsum id leo. Curabitur id mollis mi. Curabitur sed arcu id ante facilisis lobortis. Quisque in porttitor massa. Sed malesuada mattis tempor. In hac habitasse
+					platea dictumst. Duis hendrerit imperdiet lectus in ultrices. Pellentesque tristique nisi eu elit porta mollis. Nullam pulvinar interdum aliquam. Aenean in gravida velit. In blandit sit amet eros nec aliquam.</p>
+			</article>
+			<div class="sweets-pictures">
+				<img src="img/sweet1.png" alt="sweet1" />
+				<img src="img/sweet2.png" alt="sweet2" />
+				<img src="img/sweet3.png" alt="sweet3" />
+				<img src="img/sweet4.png" alt="sweet4" />
+				<img src="img/sweet5.png" alt="sweet5" />
+				<img src="img/sweet6.png" alt="sweet6" />
+			</div>
 
+		</section>
+		<!--SECTION "FOOD"-->
+		<section id="food">
+			<h2 class="best">The best food in the world</h2>
+			<p class="information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum mauris ac urna tempor mollis. Phasellus viverra risus sed augue ultrices faucibus. Nunc efficitur lectus egestas lectus suscipit, nec pretium nisl convallis. Proin vel urna vestibulum,
+				tempus elit ut, aliquet justo. Curabitur eget vulputate enim. Suspendisse cursus lorem in bibendum aliquam. Suspendisse potenti. Donec laoreet felis sit amet nisl sollicitudin aliquet. In sagittis et massa eu vehicula.</p>
+			<div class="background">
+				<img src="img/red-background.png" alt="red-background" />
+			</div>
+			<p class="information2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum mauris ac urna tempor mollis. Phasellus viverra risus sed augue ultrices faucibus. Nunc efficitur lectus egestas lectus suscipit, nec pretium nisl convallis. Proin vel urna vestibulum,
+				tempus elit ut, aliquet justo. Curabitur eget vulputate enim. Suspendisse cursus lorem in bibendum aliquam. Suspendisse potenti. Donec laoreet felis sit amet nisl sollicitudin aliquet. In sagittis et massa eu vehicula.</p>
+			<p class="information2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum mauris ac urna tempor mollis. Phasellus viverra risus sed augue ultrices faucibus. Nunc efficitur lectus egestas lectus suscipit, nec pretium nisl convallis. Proin vel urna vestibulum,
+				tempus elit ut, aliquet justo. Curabitur eget vulputate enim. Suspendisse cursus lorem in bibendum aliquam. Suspendisse potenti. Donec laoreet felis sit amet nisl sollicitudin aliquet. In sagittis et massa eu vehicula.</p>
+			<div class="logo2">
+				<img src="img/globe-blue.png" alt="globe-blue" />
+			</div>
+		</section>
+		<!--SECTION "MUFFIN"-->
+		<section id="muffin">
+			<div class="our-treasure">
+				<img src="img/muffin.png" alt="muffin" />
+			</div>
+			<h2 class="delicious">Yummy, yummy muffin</h2>
+			<article class="muffin-info">
+				Phasellus vitae fermentum leo, non facilisis leou. Suspendisse at consectetur ante. Donec mattis, odio id lobortis commodo, erat leo auctor purus, quis mollis elit elit vel urna. In risus libero, sagittis vitae tortor et, tempor tincidunt est. Mauris
+				condimentum est id lectus vestibulum ullamcorper.
+				<p class="more">read more</p>
+			</article>
+		</section>
+			<!--FOOTER-->
+		<footer>
+			<ul class="contact">
+				<li>PHONE:<span class="other">636-965-589</span></li>
+				<li>EMAIL:<span class="other">contact@chocolate.com</span></li>
+			</ul>
+			<ul class="contact">
+				<li>PLACE:<span class="other">Warszawa</span></li>
+				<li>TWITTER:<span class="other">Chocolate</span></li>
+			</ul>
+			<hr></hr>
+			 <p class="ownership">Copyright THE BEST chocolate IN THE WORLD- 2013.&bull; All rights reserved.&bull; Mail contact@chocolate.com</p>
+		</footer>
 
-	<script src="js/jquery-2.2.0.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="js/app.js"></script>
+		<script src="js/jquery-2.2.0.min.js"></script>
+		<script src="js/app.js"></script>
 </body>
 
 </html>
