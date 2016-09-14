@@ -96,14 +96,14 @@ body {
         }
         .dessert {
             float: left;
-            margin-left: 140px;
             width: 20%;
+            margin: auto auto 40px 140px;
         }
         .recipe {
             float: left;
             width: 29%;
-            text-align: left;
             margin-left: 20px;
+            text-align: left;
             font-size: 14px;
         }
         .cookie-names {
@@ -151,7 +151,7 @@ body {
         }
         .information {
             font-size: 16px;
-            color:#989797;
+            color: #989797;
             width: 70%;
             margin-left: 140px;
             margin-bottom: 30px;
@@ -163,8 +163,8 @@ body {
         .information2 {
             float: left;
             width: 60%;
-            margin-left: 140px; margin: 25px auto auto 140px;
-            color:#989797;
+            margin: 25px auto auto 140px;
+            color: #989797;
             font-size: 16px;
         }
         .logo2 {
@@ -195,7 +195,12 @@ body {
         }
         .more {
             float: right;
-            text-decoration: underline;
+            margin-right: 30px;
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+                margin-right: 35px;
+            }
         }
     }
     ///////FOOTER//////
@@ -208,26 +213,25 @@ body {
             float: left;
             list-style-type: none;
             margin-left: 100px;
+            li {
+                font-family: "Raleway", sans-serif;
+                font-size: 24px;
+                margin: 20px 40px auto auto;
+                &.other {
+                    font-weight: 300;
+                    margin-left: 25px;
+                }
+            }
+          }
+            hr {
+                float: left;
+                width: 70%;
+                margin-left: 140px;
+            }
+            .ownership {
+                float: left;
+                margin: 5px auto auto 290px;
+                font-size: 12px;
+            }
 
-        li {
-            font-family: "Raleway", sans-serif;
-            font-size: 24px;
-            margin: 20px 40px auto auto;
-        }
-        li:first-child {
-            font-weight: 300;
-            margin-left: 25px;
-        }
-      }
-        hr{
-          float:left;
-          width:70%;
-          margin-left: 140px;
-        }
-        .ownership{
-          float:left;
-          margin: 5px 290px auto auto;
-          font-size:12px;
-        }
     }
-}
