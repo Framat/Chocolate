@@ -149,14 +149,6 @@ body {
             margin-left: 40px;
             img {
                 padding: 5px;
-                -webkit-transition: all 1s ease;
-                -moz-transition: all 1s ease;
-                -ms-transition: all 1s ease;
-                transition: all 1s ease;
-                &:hover {
-                    -webkit-filter:grayscale(100%);
-                    cursor: pointer;
-                }
             }
         }
     }
@@ -204,6 +196,16 @@ body {
         .our-treasure {
             float: left;
             margin-left: 140px;
+            img {
+                -webkit-transition: all 1s ease;
+                -moz-transition: all 1s ease;
+                -ms-transition: all 1s ease;
+                transition: all 1s ease;
+                &:hover {
+                    -webkit-filter: grayscale(100%);
+                    cursor:pointer;
+                }
+            }
         }
         h2.delicious {
             float: left;
@@ -243,7 +245,7 @@ body {
                 &:hover {
                     color: #286d89;
                     text-decoration: underline;
-                    cursor:pointer;
+                    cursor: pointer;
                 }
                 .other {
                     font-weight: 300;

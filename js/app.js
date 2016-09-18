@@ -20,5 +20,13 @@ $(document).ready(function() {
     else $('.scrollup').fadeOut();
   }
   );
+  
+// LIGTHBOX GALLERY
+  $(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none',
+    autoPlay:     'yes'
+
+	});
 
 });
