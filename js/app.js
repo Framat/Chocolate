@@ -13,4 +13,12 @@ $(document).ready(function() {
       }
   });
 
+  //SHOW "UP BUTTON" WHEN SCROLLING
+  $(window).scroll(function()
+  {
+    if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+    else $('.scrollup').fadeOut();
+  }
+  );
+
 });
